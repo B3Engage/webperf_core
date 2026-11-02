@@ -1,0 +1,162 @@
+
+name: "Sitevision - Webperf analys"
+
+run-name: "Sitevision test - ${{ inputs.url }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Webbadress att analysera"
+        required: true
+        type: string
+
+      tests:
+        description: "Testnummer, separerade med kommatecken"
+        required: true
+        default: "9,18,21"
+        type: string
+
+      language:
+        description: "Sprak for resultat"
+        required: true
+        default: "sv"
+        type: choice
+        options:
+          - sv
+          - en
+
+      request_id:
+        description: "Unikt ID fran Sitevision (valfritt)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  webperf:
+    name: "Webperf Core analys"
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    env:
+      TARGET_URL: ${{ inputs.url }}
+      TEST_IDS: ${{ inputs.tests }}
+      TEST_LANGUAGE: ${{ inputs.language }}
+      REQUEST_ID: ${{ inputs.request_id }}
+
+    steps:
+      - name: Hamta koden
+        uses: actions/checkout@v4
+
+      - name: Validera indata
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from urllib.parse import urlsplit
+
+          url = os.environ["TARGET_URL"]
+          parsed = urlsplit(url)
+
+          if (
+              parsed.scheme not in ("http", "https")
+              or not parsed.hostname
+              or parsed.username
+              or parsed.password
+          ):
+              raise SystemExit("Ogiltig webbadress")
+
+          tests = os.environ["TEST_IDS"]
+          if not re.fullmatch(r"\d+(,\d+)*", tests):
+              raise SystemExit("Ogiltiga testnummer")
+
+          print("Indata har godkant format")
+          PY
+
+      - name: Forbered Docker
+        uses: docker/setup-buildx-action@v3
+
+      - name: Bygg Webperf Core
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          tags: webperf-sitevision:latest
+
+      - name: Forbered resultatmapp
+        run: |
+          mkdir -p results
+          chmod 777 results
+
+      - name: Kor Webperf Core
+        shell: bash
+        run: |
+          docker run --rm \
+            -v "$PWD/results:/results" \
+            webperf-sitevision:latest \
+            python default.py \
+            -u "$TARGET_URL" \
+            -t "$TEST_IDS" \
+            -L "$TEST_LANGUAGE" \
+            -r \
+            --setting general.review.details=true \
+            --setting general.review.improve-only=false \
+            -o /results/report.json
+
+      - name: Kontrollera JSON
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("results/report.json")
+
+          if not path.exists():
+              raise SystemExit("JSON-rapport saknas")
+
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          if not isinstance(data.get("tests"), list):
+              raise SystemExit("Ogiltigt resultatformat")
+
+          if not data["tests"]:
+              raise SystemExit("Inga testresultat producerades")
+
+          print(f"Antal resultatposter: {len(data['tests'])}")
+          PY
+
+      - name: Spara information om korningen
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          metadata = {
+              "url": os.environ["TARGET_URL"],
+              "requested_tests": os.environ["TEST_IDS"],
+              "language": os.environ["TEST_LANGUAGE"],
+              "request_id": os.environ["REQUEST_ID"],
+              "run_id": os.environ["GITHUB_RUN_ID"],
+              "created_at": datetime.now(timezone.utc).isoformat()
+          }
+
+          Path("results/metadata.json").write_text(
+              json.dumps(metadata, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Ladda upp rapport till GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: webperf-sitevision-report
+          path: results/
+          retention-days: 30
+          if-no-files-found: error
