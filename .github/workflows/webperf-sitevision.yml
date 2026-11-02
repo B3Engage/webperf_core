@@ -1,7 +1,7 @@
 
 name: "Sitevision - Webperf analys"
 
-run-name: "Sitevision test - ${{ inputs.url }}"
+run-name: "Webperf ${{ inputs.request_id }}"
 
 on:
   workflow_dispatch:
@@ -27,12 +27,12 @@ on:
           - en
 
       request_id:
-        description: "Unikt ID fran Sitevision (valfritt)"
-        required: false
+        description: "Unikt ID fran Sitevision"
+        required: true
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   webperf:
@@ -156,7 +156,36 @@ jobs:
       - name: Ladda upp rapport till GitHub
         uses: actions/upload-artifact@v4
         with:
-          name: webperf-sitevision-report
+          name: webperf-${{ inputs.request_id }}
           path: results/
           retention-days: 30
           if-no-files-found: error
+
+      - name: Publicera rapport for Sitevision API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          from pathlib import Path
+
+          report = Path("results/report.json")
+          payload = {
+              "message": f"Webperf report {os.environ['REQUEST_ID']}",
+              "content": base64.b64encode(report.read_bytes()).decode("ascii"),
+              "branch": "main"
+          }
+
+          Path("/tmp/webperf-payload.json").write_text(
+              json.dumps(payload),
+              encoding="utf-8"
+          )
+          PY
+
+          gh api \
+            --method PUT \
+            "repos/${GITHUB_REPOSITORY}/contents/reports/${REQUEST_ID}.json" \
+            --input /tmp/webperf-payload.json
