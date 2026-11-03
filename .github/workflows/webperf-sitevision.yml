@@ -162,6 +162,22 @@ jobs:
             --setting general.review.details=true \
             --setting general.review.improve-only=false \
             -o /results/report.json
+      - name: Kör Webperf Core
+        shell: bash
+        run: |
+          docker run --rm \
+            -v "$PWD/results:/results" \
+            webperf-sitevision:latest \
+            python default.py \
+            -u "$TARGET_URL" \
+            -t "$TEST_IDS" \
+            -L "$TEST_LANGUAGE" \
+            -r \
+            --setting general.review.details=true \
+            --setting general.review.improve-only=false \
+            -o /results/report.json
+
+          sudo chown -R "$(id -u):$(id -g)" "$PWD/results"
 
       - name: Kontrollera och komplettera rapporten
         shell: bash
