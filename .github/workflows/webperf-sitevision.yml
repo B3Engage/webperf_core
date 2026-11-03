@@ -1,4 +1,3 @@
-
 name: "Sitevision - Webperf analys"
 
 run-name: "Webperf ${{ inputs.request_id }} · ${{ inputs.url }}"
@@ -10,24 +9,25 @@ on:
         description: "Webbadress att analysera"
         required: true
         type: string
-
       tests:
         description: "Testnummer, separerade med kommatecken"
         required: true
-        default: "9,18,21"
+        default: "9,18,20,21,30"
         type: string
-
       language:
-        description: "Sprak for resultat"
+        description: "Språk för resultat"
         required: true
         default: "sv"
         type: choice
         options:
           - sv
           - en
-
       request_id:
-        description: "Unikt ID fran Sitevision"
+        description: "Unikt analys-ID från Sitevision"
+        required: true
+        type: string
+      user_id:
+        description: "Användar-ID från Sitevision"
         required: true
         type: string
 
@@ -45,9 +45,63 @@ jobs:
       TEST_IDS: ${{ inputs.tests }}
       TEST_LANGUAGE: ${{ inputs.language }}
       REQUEST_ID: ${{ inputs.request_id }}
+      SITEVISION_USER_ID: ${{ inputs.user_id }}
 
     steps:
-      - name: Hamta koden
+      - name: Registrera starttid
+        shell: bash
+        run: |
+          echo "WORKFLOW_STARTED_AT=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_ENV"
+          echo "WORKFLOW_STARTED_EPOCH=$(date -u +'%s')" >> "$GITHUB_ENV"
+
+      - name: Registrera pågående körning
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          from pathlib import Path
+
+          metadata = {
+              "analysisId": os.environ["REQUEST_ID"],
+              "userId": os.environ["SITEVISION_USER_ID"],
+              "website": os.environ["TARGET_URL"],
+              "githubRunId": int(os.environ["GITHUB_RUN_ID"]),
+              "status": "in_progress",
+              "conclusion": None,
+              "startedAt": os.environ["WORKFLOW_STARTED_AT"],
+              "completedAt": None,
+              "durationSeconds": None,
+              "overallRating": None,
+              "ratingScale": 5,
+              "tests": [int(value) for value in os.environ["TEST_IDS"].split(",")],
+              "language": os.environ["TEST_LANGUAGE"],
+              "reportId": None,
+              "webperfVersion": None,
+          }
+          content = json.dumps(metadata, ensure_ascii=False, indent=2).encode("utf-8")
+          payload = {
+              "message": f"Start Webperf history {os.environ['REQUEST_ID']}",
+              "content": base64.b64encode(content).decode("ascii"),
+              "branch": "main",
+          }
+          Path("/tmp/webperf-start-payload.json").write_text(
+              json.dumps(payload), encoding="utf-8"
+          )
+          PY
+
+          history_path="history/${REQUEST_ID}.json"
+          history_sha="$(gh api "repos/${GITHUB_REPOSITORY}/contents/${history_path}?ref=main" --jq '.sha' 2>/dev/null || true)"
+          if [ -n "$history_sha" ]; then
+            jq --arg sha "$history_sha" '. + {sha: $sha}' /tmp/webperf-start-payload.json > /tmp/webperf-start-payload.updated.json
+            mv /tmp/webperf-start-payload.updated.json /tmp/webperf-start-payload.json
+          fi
+          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/${history_path}" --input /tmp/webperf-start-payload.json
+
+      - name: Hämta koden
         uses: actions/checkout@v4
 
       - name: Validera indata
@@ -62,21 +116,24 @@ jobs:
           parsed = urlsplit(url)
 
           if (
-              parsed.scheme not in ("http", "https")
+              parsed.scheme != "https"
               or not parsed.hostname
               or parsed.username
               or parsed.password
           ):
               raise SystemExit("Ogiltig webbadress")
 
-          tests = os.environ["TEST_IDS"]
-          if not re.fullmatch(r"\d+(,\d+)*", tests):
+          if not re.fullmatch(r"[a-f0-9]{32}", os.environ["REQUEST_ID"]):
+              raise SystemExit("Ogiltigt analys-ID")
+
+          if not re.fullmatch(r"\d+(,\d+)*", os.environ["TEST_IDS"]):
               raise SystemExit("Ogiltiga testnummer")
 
-          print("Indata har godkant format")
+          if not os.environ["SITEVISION_USER_ID"]:
+              raise SystemExit("Användar-ID saknas")
           PY
 
-      - name: Forbered Docker
+      - name: Förbered Docker
         uses: docker/setup-buildx-action@v3
 
       - name: Bygg Webperf Core
@@ -86,12 +143,12 @@ jobs:
           load: true
           tags: webperf-sitevision:latest
 
-      - name: Forbered resultatmapp
+      - name: Förbered resultatmapp
         run: |
           mkdir -p results
           chmod 777 results
 
-      - name: Kor Webperf Core
+      - name: Kör Webperf Core
         shell: bash
         run: |
           docker run --rm \
@@ -106,54 +163,73 @@ jobs:
             --setting general.review.improve-only=false \
             -o /results/report.json
 
-      - name: Kontrollera JSON
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          path = Path("results/report.json")
-
-          if not path.exists():
-              raise SystemExit("JSON-rapport saknas")
-
-          data = json.loads(path.read_text(encoding="utf-8"))
-
-          if not isinstance(data.get("tests"), list):
-              raise SystemExit("Ogiltigt resultatformat")
-
-          if not data["tests"]:
-              raise SystemExit("Inga testresultat producerades")
-
-          print(f"Antal resultatposter: {len(data['tests'])}")
-          PY
-
-      - name: Spara information om korningen
+      - name: Kontrollera och komplettera rapporten
         shell: bash
         run: |
           python3 - <<'PY'
           import json
           import os
+          import time
           from datetime import datetime, timezone
           from pathlib import Path
 
-          metadata = {
-              "url": os.environ["TARGET_URL"],
-              "requested_tests": os.environ["TEST_IDS"],
-              "language": os.environ["TEST_LANGUAGE"],
-              "request_id": os.environ["REQUEST_ID"],
-              "run_id": os.environ["GITHUB_RUN_ID"],
-              "created_at": datetime.now(timezone.utc).isoformat()
-          }
+          path = Path("results/report.json")
+          if not path.exists():
+              raise SystemExit("JSON-rapport saknas")
 
+          data = json.loads(path.read_text(encoding="utf-8"))
+          tests = data.get("tests")
+          if not isinstance(tests, list) or not tests:
+              raise SystemExit("Ogiltigt resultatformat")
+
+          combined = next(
+              (test for test in tests if test.get("type_of_test") == -1),
+              tests[0] if len(tests) == 1 else {},
+          )
+          overall_rating = combined.get("rating")
+          if not isinstance(overall_rating, (int, float)) or overall_rating < 0:
+              overall_rating = None
+
+          webperf_version = next(
+              (
+                  test.get("data", {}).get("version")
+                  for test in tests
+                  if isinstance(test.get("data"), dict)
+                  and test.get("data", {}).get("version")
+              ),
+              None,
+          )
+          completed_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+          duration = max(0, int(time.time()) - int(os.environ["WORKFLOW_STARTED_EPOCH"]))
+          metadata = {
+              "analysisId": os.environ["REQUEST_ID"],
+              "userId": os.environ["SITEVISION_USER_ID"],
+              "website": os.environ["TARGET_URL"],
+              "githubRunId": int(os.environ["GITHUB_RUN_ID"]),
+              "status": "completed",
+              "conclusion": "success",
+              "startedAt": os.environ["WORKFLOW_STARTED_AT"],
+              "completedAt": completed_at,
+              "durationSeconds": duration,
+              "overallRating": overall_rating,
+              "ratingScale": 5,
+              "tests": [int(value) for value in os.environ["TEST_IDS"].split(",")],
+              "language": os.environ["TEST_LANGUAGE"],
+              "reportId": os.environ["REQUEST_ID"],
+              "webperfVersion": webperf_version,
+          }
+          data["metadata"] = metadata
+          path.write_text(
+              json.dumps(data, ensure_ascii=False, indent=2),
+              encoding="utf-8",
+          )
           Path("results/metadata.json").write_text(
               json.dumps(metadata, ensure_ascii=False, indent=2),
-              encoding="utf-8"
+              encoding="utf-8",
           )
           PY
 
-      - name: Ladda upp rapport till GitHub
+      - name: Ladda upp rapport till GitHub Actions
         uses: actions/upload-artifact@v4
         with:
           name: webperf-${{ inputs.request_id }}
@@ -161,31 +237,93 @@ jobs:
           retention-days: 30
           if-no-files-found: error
 
-      - name: Publicera rapport for Sitevision API
+      - name: Publicera rapport och historik
+        if: ${{ always() }}
         env:
           GH_TOKEN: ${{ github.token }}
+          JOB_CONCLUSION: ${{ job.status }}
         shell: bash
         run: |
           python3 - <<'PY'
           import base64
           import json
           import os
+          import time
+          from datetime import datetime, timezone
           from pathlib import Path
 
-          report = Path("results/report.json")
-          payload = {
-              "message": f"Webperf report {os.environ['REQUEST_ID']}",
-              "content": base64.b64encode(report.read_bytes()).decode("ascii"),
-              "branch": "main"
+          report_path = Path("results/report.json")
+          completed_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+          duration = max(0, int(time.time()) - int(os.environ["WORKFLOW_STARTED_EPOCH"]))
+          metadata = {
+              "analysisId": os.environ["REQUEST_ID"],
+              "userId": os.environ["SITEVISION_USER_ID"],
+              "website": os.environ["TARGET_URL"],
+              "githubRunId": int(os.environ["GITHUB_RUN_ID"]),
+              "status": "completed",
+              "conclusion": os.environ["JOB_CONCLUSION"],
+              "startedAt": os.environ["WORKFLOW_STARTED_AT"],
+              "completedAt": completed_at,
+              "durationSeconds": duration,
+              "overallRating": None,
+              "ratingScale": 5,
+              "tests": [int(value) for value in os.environ["TEST_IDS"].split(",")],
+              "language": os.environ["TEST_LANGUAGE"],
+              "reportId": os.environ["REQUEST_ID"] if report_path.exists() else None,
+              "webperfVersion": None,
           }
 
-          Path("/tmp/webperf-payload.json").write_text(
-              json.dumps(payload),
-              encoding="utf-8"
+          if report_path.exists():
+              report = json.loads(report_path.read_text(encoding="utf-8"))
+              metadata.update(report.get("metadata") or {})
+              metadata.update({
+                  "status": "completed",
+                  "conclusion": os.environ["JOB_CONCLUSION"],
+                  "completedAt": completed_at,
+                  "durationSeconds": duration,
+              })
+              report["metadata"] = metadata
+              report_path.write_text(
+                  json.dumps(report, ensure_ascii=False, indent=2),
+                  encoding="utf-8",
+              )
+              report_payload = {
+                  "message": f"Webperf report {os.environ['REQUEST_ID']}",
+                  "content": base64.b64encode(report_path.read_bytes()).decode("ascii"),
+                  "branch": "main",
+              }
+              Path("/tmp/webperf-report-payload.json").write_text(
+                  json.dumps(report_payload), encoding="utf-8"
+              )
+
+          history_path = Path("/tmp/webperf-history.json")
+          history_path.write_text(
+              json.dumps(metadata, ensure_ascii=False, indent=2),
+              encoding="utf-8",
+          )
+          history_payload = {
+              "message": f"Webperf history {os.environ['REQUEST_ID']}",
+              "content": base64.b64encode(history_path.read_bytes()).decode("ascii"),
+              "branch": "main",
+          }
+          Path("/tmp/webperf-history-payload.json").write_text(
+              json.dumps(history_payload), encoding="utf-8"
           )
           PY
 
-          gh api \
-            --method PUT \
-            "repos/${GITHUB_REPOSITORY}/contents/reports/${REQUEST_ID}.json" \
-            --input /tmp/webperf-payload.json
+          put_file() {
+            local path="$1"
+            local payload="$2"
+            local sha
+            sha="$(gh api "repos/${GITHUB_REPOSITORY}/contents/${path}?ref=main" --jq '.sha' 2>/dev/null || true)"
+            if [ -n "$sha" ]; then
+              jq --arg sha "$sha" '. + {sha: $sha}' "$payload" > "${payload}.updated"
+              mv "${payload}.updated" "$payload"
+            fi
+            gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/${path}" --input "$payload"
+          }
+
+          if [ -f results/report.json ]; then
+            put_file "reports/${REQUEST_ID}.json" /tmp/webperf-report-payload.json
+          fi
+          put_file "history/${REQUEST_ID}.json" /tmp/webperf-history-payload.json
