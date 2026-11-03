@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 32,
+      "rating": -1.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-11-03T17:41:54.669233",
+      "report": "Fel, det gick inte att läsa in den begärda sidan.",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "failed": true,
+        "url": "https://www.stockholmresilience.org/",
+        "domain": "stockholmresilience.org",
+        "error": "docker was not found in PATH"
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "1c73370a3076d72fa216f085d623b5bb",
+    "userId": "247.35386362333230312d31636438313165662d61366331396164652d3564313562666162",
+    "website": "https://www.stockholmresilience.org/",
+    "githubRunId": 41686194047,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-03T17:38:33Z",
+    "completedAt": "2026-11-03T17:41:55.982756Z",
+    "durationSeconds": 202,
+    "overallRating": null,
+    "ratingScale": 5,
+    "tests": [
+      32
+    ],
+    "language": "sv",
+    "reportId": "1c73370a3076d72fa216f085d623b5bb",
+    "webperfVersion": null
+  }
+}
