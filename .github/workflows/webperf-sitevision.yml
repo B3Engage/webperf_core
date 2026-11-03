@@ -1,7 +1,7 @@
 
 name: "Sitevision - Webperf analys"
 
-run-name: "Webperf ${{ inputs.request_id }}"
+run-name: "Webperf ${{ inputs.request_id }} · ${{ inputs.url }}"
 
 on:
   workflow_dispatch:
