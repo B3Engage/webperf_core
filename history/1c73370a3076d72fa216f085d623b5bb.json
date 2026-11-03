@@ -3,17 +3,17 @@
   "userId": "247.35386362333230312d31636438313165662d61366331396164652d3564313562666162",
   "website": "https://www.stockholmresilience.org/",
   "githubRunId": 41686194047,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-03T17:38:33Z",
-  "completedAt": null,
-  "durationSeconds": null,
+  "completedAt": "2026-11-03T17:41:55.982756Z",
+  "durationSeconds": 202,
   "overallRating": null,
   "ratingScale": 5,
   "tests": [
     32
   ],
   "language": "sv",
-  "reportId": null,
+  "reportId": "1c73370a3076d72fa216f085d623b5bb",
   "webperfVersion": null
 }
