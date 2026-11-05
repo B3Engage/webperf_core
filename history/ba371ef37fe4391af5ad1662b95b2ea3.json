@@ -3,17 +3,17 @@
   "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
   "website": "https://www.linkoping.se/",
   "githubRunId": 42045728797,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-05T14:30:57Z",
-  "completedAt": null,
-  "durationSeconds": null,
-  "overallRating": null,
+  "completedAt": "2026-11-05T14:35:23.623144Z",
+  "durationSeconds": 266,
+  "overallRating": 3.95,
   "ratingScale": 5,
   "tests": [
     22
   ],
   "language": "sv",
-  "reportId": null,
+  "reportId": "ba371ef37fe4391af5ad1662b95b2ea3",
   "webperfVersion": null
 }
