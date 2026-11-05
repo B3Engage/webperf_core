@@ -1,0 +1,310 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 3.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-11-05T13:12:31.324768",
+      "report": "- Webbsidan genererar ganska lite koldioxid.\n- Koldioxid per sidvisning: 1.64 gram\n- Webbsidan är grönare än 77 % av testade webbplatser på webperf.se (Referens uppdaterad: 2026-06-07).\n- Nätverksstorlek: 2.59 MB\n ( 3.85 betyg )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://www.linkoping.se/",
+            "index": 1,
+            "size": 86037
+          },
+          {
+            "url": "https://www.linkoping.se/2.17c8f30e197e3166ee96583/1793712437620/sitevision-responsive-grids.css?gridConfigs=651.17c8f30e197e3166ee96697_FLUID_GRID%2C651.17c8f30e197e3166ee966f3_FIXED_FLUID_GRID%2C651.17c8f30e197e3166ee966f3_FLUID_GRID&pushPull=false",
+            "index": 2,
+            "size": 17356
+          },
+          {
+            "url": "https://www.linkoping.se/2.17c8f30e197e3166ee96583/auto/1793884274981/SiteVision.css",
+            "index": 3,
+            "size": 38905
+          },
+          {
+            "url": "https://www.linkoping.se/2.17c8f30e197e3166ee96583/2/9712/print/SiteVision.css",
+            "index": 4,
+            "size": 153708
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/css/portlets.css",
+            "index": 5,
+            "size": 42513
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/envision/envision.css",
+            "index": 6,
+            "size": 284525
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css",
+            "index": 7,
+            "size": 2630
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.353c25ee19d86080ccc1452/1776096073146/webapp-assets.css",
+            "index": 8,
+            "size": 1
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.86a91821a162e7f59ff0d8/1793868286307/webapp-assets.css",
+            "index": 9,
+            "size": 151540
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/js/jquery.js",
+            "index": 10,
+            "size": 100444
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/envision/envision.js",
+            "index": 11,
+            "size": 80880
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/js/utils.js",
+            "index": 12,
+            "size": 29642
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/js/portlets.js",
+            "index": 13,
+            "size": 146724
+          },
+          {
+            "url": "https://www.linkoping.se/images/18.2d53e86a1a1a16ba4da73a3/1793875264319/Framsida-ny.webp",
+            "index": 14,
+            "size": 135348
+          },
+          {
+            "url": "https://static.rekai.se/fe8073de.js",
+            "index": 15,
+            "size": 87171
+          },
+          {
+            "url": "https://www.linkoping.se/images/18.17c8f30e197e3166ee97149/1749616141698/Logo-Linkoping-SV.svg",
+            "index": 16,
+            "size": 13232
+          },
+          {
+            "url": "https://static.rekai.se/addon/v3/rekai_autocomplete.min.js",
+            "index": 17,
+            "size": 68746
+          },
+          {
+            "url": "https://www.linkoping.se/images/200.4cf3d0fb1a163241760ea26/1793011883061/16307883-HANDS-OF-young-man-typing-on-keyboard.jpg.webp",
+            "index": 18,
+            "size": 13272
+          },
+          {
+            "url": "https://www.linkoping.se/images/200.76fc254d1a12f5f1b9a20854/1792582391665/IMG_5744_KFklubba.jpg.webp",
+            "index": 19,
+            "size": 15450
+          },
+          {
+            "url": "https://www.linkoping.se/images/200.2d53e86a1a1a16ba4da6d41/1793865839363/vinterljus2026_bakgrundsbild%20(2).webp",
+            "index": 20,
+            "size": 20080
+          },
+          {
+            "url": "https://www.linkoping.se/images/200.4b95868919a0f43f3551511/1761657480250/dronarbuss-cut.webp",
+            "index": 21,
+            "size": 21794
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/js/webAppExternals/react_17_0.js",
+            "index": 22,
+            "size": 130891
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/js/webAppExternals/react_18_3.js",
+            "index": 23,
+            "size": 141538
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.4b95868919a0f43f3559063/1762160088572/webapp-assets.js",
+            "index": 24,
+            "size": 13010
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.js",
+            "index": 25,
+            "size": 113601
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.4b95868919a0f43f35515c4/1761658053207/webapp-assets.js",
+            "index": 26,
+            "size": 504
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.4b95868919a0f43f35515b6/1761657996915/webapp-assets.js",
+            "index": 27,
+            "size": 3855
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.4b95868919a0f43f355150c/1761657457108/webapp-assets.js",
+            "index": 28,
+            "size": 552
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.5b7209a31a01f584dad126e7/1787661571840/webapp-assets.js",
+            "index": 29,
+            "size": 1337
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.5b7209a31a01f584dad126e5/1787661430840/webapp-assets.js",
+            "index": 30,
+            "size": 919
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.21bca44619a7b9ee9d031408/1764082057016/webapp-assets.js",
+            "index": 31,
+            "size": 752
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.4b95868919a0f43f35516df/1761658570727/webapp-assets.js",
+            "index": 32,
+            "size": 7373
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.353c25ee19d86080ccc1452/1776096073146/webapp-assets.js",
+            "index": 33,
+            "size": 26923
+          },
+          {
+            "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.86a91821a162e7f59ff0d8/1793868286307/webapp-assets.js",
+            "index": 34,
+            "size": 62780
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/webapps/webapp_sdk-legacy.js",
+            "index": 35,
+            "size": 31653
+          },
+          {
+            "url": "https://svanalytics.containers.piwik.pro/0d230380-64e7-4ae7-800f-a96619f3f8aa.js?use_secure_cookies",
+            "index": 36,
+            "size": 267601
+          },
+          {
+            "url": "https://www.linkoping.se/sprite.svg#user-pen",
+            "index": 37,
+            "size": 0
+          },
+          {
+            "url": "https://www.linkoping.se/download/18.2d53e86a1a1a16ba4da6fe1/1793869484192/Inter-Regular.woff2",
+            "index": 38,
+            "size": 48960
+          },
+          {
+            "url": "https://www.linkoping.se/download/18.2d53e86a1a1a16ba4da6ff2/1793869503627/Inter-Bold.woff2",
+            "index": 39,
+            "size": 50164
+          },
+          {
+            "url": "https://www.linkoping.se/sitevision/link-icons.svg#link-external",
+            "index": 40,
+            "size": 3371
+          },
+          {
+            "url": "https://www.linkoping.se/webdav/files/Ikoner/search.svg",
+            "index": 41,
+            "size": 1280
+          },
+          {
+            "url": "https://www.linkoping.se/download/18.2d53e86a1a1a16ba4da6ff1/1793869497020/Inter-SemiBold.woff2",
+            "index": 42,
+            "size": 50240
+          },
+          {
+            "url": "https://www.linkoping.se/download/18.2d53e86a1a1a16ba4da6ff0/1793869491980/Inter-Medium.woff2",
+            "index": 43,
+            "size": 49820
+          },
+          {
+            "url": "https://www.linkoping.se/images/18.17c8f30e197e3166ee9f422/1793020219977/sprite.svg#user-pen",
+            "index": 44,
+            "size": 61528
+          },
+          {
+            "url": "https://view.rekai.se/view",
+            "index": 45,
+            "size": 0
+          },
+          {
+            "url": "https://view.rekai.se/view",
+            "index": 46,
+            "size": 17
+          },
+          {
+            "url": "https://predict.rekai.se/predict?mb=-1&vt=1&v30=1&dlv=30&p=15001679&ubl=en-US&nr=4&excludetree=%2Farbete-och-lediga-jobb%2Flediga-jobb%2Flediga-jobb%2F&pl=sv&seed=20412905q&currentp=%2F&currentid=2.17c8f30e197e3166ee96583&pn=Link%C3%B6pings%20kommun%20-%20Link%C3%B6pings%20kommun",
+            "index": 47,
+            "size": 947
+          },
+          {
+            "url": "https://svanalytics.containers.piwik.pro/0d230380-64e7-4ae7-800f-a96619f3f8aa/privacy-widgets.json",
+            "index": 48,
+            "size": 53325
+          },
+          {
+            "url": "https://svanalytics.containers.piwik.pro/ppms.js",
+            "index": 49,
+            "size": 70128
+          },
+          {
+            "url": "https://svanalytics.piwik.pro/ppms.php",
+            "index": 50,
+            "size": 0
+          },
+          {
+            "url": "https://www.linkoping.se/images/18.5b7209a31a01f584dad2894/1787290662821/favicon.ico",
+            "index": 51,
+            "size": 15041
+          },
+          {
+            "url": "https://www.linkoping.se/images/18.17c8f30e197e3166ee9159bf/1746704801899/favicon-32x32.png",
+            "index": 52,
+            "size": 1429
+          },
+          {
+            "url": "https://svanalytics.piwik.pro/ppms.php",
+            "index": 53,
+            "size": 0
+          }
+        ],
+        "total-byte-weight": 2719537,
+        "co2": 1.6395054680370957,
+        "cleaner_than": 77.0
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "e8544d1e9ea4ebb6fd8b2aa3df4b192c",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://www.linkoping.se/",
+    "githubRunId": 42033091917,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-05T13:08:22Z",
+    "completedAt": "2026-11-05T13:12:32.625604Z",
+    "durationSeconds": 250,
+    "overallRating": 3.85,
+    "ratingScale": 5,
+    "tests": [
+      22
+    ],
+    "language": "sv",
+    "reportId": "e8544d1e9ea4ebb6fd8b2aa3df4b192c",
+    "webperfVersion": null
+  }
+}
