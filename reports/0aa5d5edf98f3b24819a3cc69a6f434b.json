@@ -1,0 +1,408 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.2,
+      "rating_sec": 4.4,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.0,
+      "date": "2026-11-05T10:53:17.302739",
+      "report": "",
+      "report_sec": "- security.txt har felaktigt innehåll (fel)\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/security.txt\n  - https://www.linkoping.se/.well-known/security.txt\n\n- security.txt saknar nödvändig kontaktinformation (varning)\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/security.txt\n  - https://www.linkoping.se/.well-known/security.txt\n\n- security.txt kräver utgångsinformation (tillägg i utkast v10) saknas (varning)\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/security.txt\n  - https://www.linkoping.se/.well-known/security.txt\n\n- Sitemap, Url i <loc> måste börja med https:// (löst)\n- security.txt saknas (löst)\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt saknas, får inte laddas ner eller har inte förväntat innehåll (fel)\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/robots.txt\n\n- Sitemap anges inte i robots.txt (fel)\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/\n\n- Sitemap, ingen giltig sitemap hittades (löst)\n- Sitemap, Url i <loc> måste använda samma domän som robots.txt (löst)\n- Sitemap, sitemapindex pekar bara på sitemaps på samma domän (löst)\n- Sitemap, inga dubbletter av Url:er i <loc> är tillåtna (löst)\n- Sitemap, listar annat än webbsidor (löst)\n- Sitemap, överskrider 50 000 objekt (löst)\n- Sitemap, har inga objekt (löst)\n- Sitemap, kunde inte läsas (löst)\n- Feed saknas i HTML:ens metadata (löst)\n",
+      "data": {
+        "version": "2026.10.2",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "www.linkoping.se": {
+            "version": "2026.10.2",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 84,
+              "security": 88,
+              "standard": 80
+            },
+            "issues": [
+              {
+                "test": "standard-files",
+                "rule": "invalid-security-txt",
+                "category": "security",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/.well-known/security.txt",
+                    "rule": "invalid-security-txt",
+                    "category": "security",
+                    "severity": "error"
+                  },
+                  {
+                    "url": "https://www.linkoping.se/security.txt",
+                    "rule": "invalid-security-txt",
+                    "category": "security",
+                    "severity": "error"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-robots-txt",
+                "category": "standard",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/robots.txt",
+                    "rule": "no-robots-txt",
+                    "category": "standard",
+                    "severity": "error"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-sitemap-in-robots-txt",
+                "category": "standard",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/",
+                    "rule": "no-sitemap-in-robots-txt",
+                    "category": "standard",
+                    "severity": "error"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt-contact",
+                "category": "security",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/.well-known/security.txt",
+                    "rule": "no-security-txt-contact",
+                    "category": "security",
+                    "severity": "warning"
+                  },
+                  {
+                    "url": "https://www.linkoping.se/security.txt",
+                    "rule": "no-security-txt-contact",
+                    "category": "security",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt-expires",
+                "category": "security",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/.well-known/security.txt",
+                    "rule": "no-security-txt-expires",
+                    "category": "security",
+                    "severity": "warning"
+                  },
+                  {
+                    "url": "https://www.linkoping.se/security.txt",
+                    "rule": "no-security-txt-expires",
+                    "category": "security",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-valid-sitemap-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-same-domain-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-https-sitemap",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-same-host-sitemapindex",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-duplicates-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-unknown-types-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "invalid-sitemap-too-large",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-items-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "unreadable-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-rss-feed",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.linkoping.se/": {
+                "version": "2026.10.2",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://www.linkoping.se/",
+                "score": {
+                  "overall": 84,
+                  "security": 88,
+                  "standard": 80
+                },
+                "issues": [
+                  {
+                    "test": "standard-files",
+                    "rule": "invalid-security-txt",
+                    "category": "security",
+                    "severity": "error",
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/.well-known/security.txt",
+                        "rule": "invalid-security-txt",
+                        "category": "security",
+                        "severity": "error"
+                      },
+                      {
+                        "url": "https://www.linkoping.se/security.txt",
+                        "rule": "invalid-security-txt",
+                        "category": "security",
+                        "severity": "error"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-robots-txt",
+                    "category": "standard",
+                    "severity": "error",
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/robots.txt",
+                        "rule": "no-robots-txt",
+                        "category": "standard",
+                        "severity": "error"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-sitemap-in-robots-txt",
+                    "category": "standard",
+                    "severity": "error",
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/",
+                        "rule": "no-sitemap-in-robots-txt",
+                        "category": "standard",
+                        "severity": "error"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-security-txt-contact",
+                    "category": "security",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/.well-known/security.txt",
+                        "rule": "no-security-txt-contact",
+                        "category": "security",
+                        "severity": "warning"
+                      },
+                      {
+                        "url": "https://www.linkoping.se/security.txt",
+                        "rule": "no-security-txt-contact",
+                        "category": "security",
+                        "severity": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-security-txt-expires",
+                    "category": "security",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/.well-known/security.txt",
+                        "rule": "no-security-txt-expires",
+                        "category": "security",
+                        "severity": "warning"
+                      },
+                      {
+                        "url": "https://www.linkoping.se/security.txt",
+                        "rule": "no-security-txt-expires",
+                        "category": "security",
+                        "severity": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-valid-sitemap-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-same-domain-sitemap",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-https-sitemap",
+                    "category": "security",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-same-host-sitemapindex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-duplicates-sitemap",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-unknown-types-sitemap",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "invalid-sitemap-too-large",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-items-sitemap",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "unreadable-sitemap",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-rss-feed",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "standard-files",
+                    "rule": "no-security-txt",
+                    "category": "security",
+                    "severity": "resolved",
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "0aa5d5edf98f3b24819a3cc69a6f434b",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://www.linkoping.se/",
+    "githubRunId": 42013514304,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-05T10:46:47Z",
+    "completedAt": "2026-11-05T10:53:18.923752Z",
+    "durationSeconds": 391,
+    "overallRating": 4.2,
+    "ratingScale": 5,
+    "tests": [
+      9
+    ],
+    "language": "sv",
+    "reportId": "0aa5d5edf98f3b24819a3cc69a6f434b",
+    "webperfVersion": "2026.10.2"
+  }
+}
