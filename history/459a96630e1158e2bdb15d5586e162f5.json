@@ -3,12 +3,12 @@
   "userId": "247.66393165666330332d62366538313165662d61366331396164652d3564313562666162",
   "website": "https://mariestad.se/",
   "githubRunId": 42183048957,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-06T07:46:18Z",
-  "completedAt": null,
-  "durationSeconds": null,
-  "overallRating": null,
+  "completedAt": "2026-11-06T08:02:55.834549Z",
+  "durationSeconds": 997,
+  "overallRating": 4.03,
   "ratingScale": 5,
   "tests": [
     9,
@@ -18,6 +18,6 @@
     30
   ],
   "language": "sv",
-  "reportId": null,
-  "webperfVersion": null
+  "reportId": "459a96630e1158e2bdb15d5586e162f5",
+  "webperfVersion": "2026.10.2"
 }
