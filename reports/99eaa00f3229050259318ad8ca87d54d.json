@@ -1,0 +1,1212 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.85,
+      "date": "2026-11-06T08:52:50.612387",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Tillåt inte inaktuella egenskaper (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/property-no-deprecated\n\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/css/portlets-slim.css\n  - https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css\n  - https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css\n\n- CSS, Tillåt inte inaktuella nyckelord för egenskaper inom deklarationer (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css\n\n- CSS, Tillåt inte okända egna egenskaper (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Webbadress(er) med förbättringspotential:\n  - https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css\n\n- CSS, Tillåt inte okända annoteringar (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Tillåt inte okända deskriptorer för at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Tillåt inte okända värden för deskriptorer inom at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Tillåt inte inaktuella at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Tillåt inte okända at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Tillåt inte ogiltiga preludier för at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Tillåt inte tomma block (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n- CSS, Tillåt inte ogiltiga hexfärger (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Tillåt inte tomma kommentarer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Tillåt inte okända värden för egenskaper inom deklarationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n- CSS, Tillåt inte icke-standardiserade riktningsvärden för linjära gradientfunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Tillåt inte okända funktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n- CSS, Tillåt inte okända namn på mediefunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Tillåt inte okända värden för mediefunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Tillåt inte ogiltiga mediefrågor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Tillåt inte inaktuella medietyper (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-type-no-deprecated\n\n- CSS, Tillåt inte ogiltiga namngivna rutnätsområden (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Tillåt inte tomma källor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Tillåt inte ogiltiga dubbel-snedstreck-kommentarer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Tillåt inte felplacerade `@import`-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Tillåt inte ogiltiga positionsdeklarationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-declaration\n\n- CSS, Tillåt inte okända animationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Tillåt inte okända egna mediefrågor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Tillåt inte okända egenskaper (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- CSS, Tillåt inte inaktuella selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-no-deprecated\n\n- CSS, Tillåt inte ogiltiga selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-no-invalid\n\n- CSS, Tillåt inte okända pseudoklass-selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Tillåt inte okända pseudoelement-selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Tillåt inte okända typselektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n- CSS, Tillåt inte ogiltiga syntaxsträngar (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Tillåt inte okända enheter (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2026.10.2",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "www.linkoping.se": {
+            "version": "2026.10.2",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 97,
+              "standard": 97
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "property-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/css/portlets-slim.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 583
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 4,
+                    "column": 1341
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 5,
+                    "column": 36
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 10
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 7531
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 13906
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71846
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 72046
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 101059
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 104061
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 104425
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 141360
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 19891
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 33625
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 68255
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 87739
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 91933
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 102539
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 107383
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 124769
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 143014
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 143672
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --env-brand-color-10 (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 32541
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --env-brand-color-05 (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 34802
+                  },
+                  {
+                    "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --env-status-attention (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 136909
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-type-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-declaration",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.linkoping.se/": {
+                "version": "2026.10.2",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://www.linkoping.se/",
+                "score": {
+                  "overall": 97,
+                  "standard": 97
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/sitevision/system-resource/d40532dcd1d1ab11c03940da12574e9ea038259c5d0e4ea649f04511c5d95b88/css/portlets-slim.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 583
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 4,
+                        "column": 1341
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.68267b5a1a18c6f5bc2bddd/1793638961288/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 5,
+                        "column": 36
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 10
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 7531
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 13906
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71846
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 72046
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 101059
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 104061
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 104425
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 141360
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 19891
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 33625
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 68255
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 87739
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 91933
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 102539
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 107383
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 124769
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 143014
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 143672
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --env-brand-color-10 (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 32541
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --env-brand-color-05 (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 34802
+                      },
+                      {
+                        "url": "https://www.linkoping.se/webapp-resource/2.17c8f30e197e3166ee96583/360.2d53e86a1a1a16ba4da7d6a/1793954767123/webapp-assets.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --env-status-attention (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 136909
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-type-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-declaration",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "99eaa00f3229050259318ad8ca87d54d",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://www.linkoping.se/",
+    "githubRunId": 42190273461,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-06T08:48:09Z",
+    "completedAt": "2026-11-06T08:52:52.454765Z",
+    "durationSeconds": 283,
+    "overallRating": 4.85,
+    "ratingScale": 5,
+    "tests": [
+      27
+    ],
+    "language": "sv",
+    "reportId": "99eaa00f3229050259318ad8ca87d54d",
+    "webperfVersion": "2026.10.2"
+  }
+}
