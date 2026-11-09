@@ -3,12 +3,12 @@
   "userId": "247.35386362333230312d31636438313165662d61366331396164652d3564313562666162",
   "website": "https://flyttliggaren.onrender.com",
   "githubRunId": 42713545190,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-09T22:37:38Z",
-  "completedAt": null,
-  "durationSeconds": null,
-  "overallRating": null,
+  "completedAt": "2026-11-09T22:51:44.186609Z",
+  "durationSeconds": 846,
+  "overallRating": 4.46,
   "ratingScale": 5,
   "tests": [
     21,
@@ -19,6 +19,6 @@
     30
   ],
   "language": "sv",
-  "reportId": null,
-  "webperfVersion": null
+  "reportId": "1ba57a6353fd2a8edaa95ef03f58c6f1",
+  "webperfVersion": "2026.10.2"
 }
