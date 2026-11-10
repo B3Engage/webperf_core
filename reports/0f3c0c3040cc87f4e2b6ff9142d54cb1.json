@@ -1,0 +1,152 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2026-11-10T16:02:02.153288",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "forte.se": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://forte.se/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "<button class=\"ws-burger-menu__link-button \" aria-expanded=\"false\" aria-controls=\"4_4b2c14a019545e36ca712155_submenu\"><svg xmlns=\"http://www.w3.org/2...</button>",
+                      "selector": "#forteMenu122aee4071961de79d3024f6c > div:nth-child(2) > ul > li:nth-child(1) > div > button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://forte.se/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "<button class=\"ws-burger-menu__link-button \" aria-expanded=\"false\" aria-controls=\"4_2204819b193deb8e99c35a35_submenu\"><svg xmlns=\"http://www.w3.org/2...</button>",
+                      "selector": "#forteMenu122aee4071961de79d3024f6c > div:nth-child(2) > ul > li:nth-child(2) > div > button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://forte.se/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "<button class=\"ws-burger-menu__link-button \" aria-expanded=\"false\" aria-controls=\"4_75e86820194d83465e33a8f1_submenu\"><svg xmlns=\"http://www.w3.org/2...</button>",
+                      "selector": "#forteMenu122aee4071961de79d3024f6c > div:nth-child(2) > ul > li:nth-child(3) > div > button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://forte.se/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "<button class=\"ws-burger-menu__link-button \" aria-expanded=\"false\" aria-controls=\"4_37c53ced194a80fae3d6356_submenu\"><svg xmlns=\"http://www.w3.org/2...</button>",
+                      "selector": "#forteMenu122aee4071961de79d3024f6c > div:nth-child(2) > ul > li:nth-child(4) > div > button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://forte.se/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (fel)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "<button class=\"ws-burger-menu__link-button \" aria-expanded=\"false\" aria-controls=\"4_37c53ced194a80fae3d657e_submenu\"><svg xmlns=\"http://www.w3.org/2...</button>",
+                      "selector": "#forteMenu122aee4071961de79d3024f6c > div:nth-child(2) > ul > li:nth-child(5) > div > button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "categories": [
+              "a11y"
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "0f3c0c3040cc87f4e2b6ff9142d54cb1",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://forte.se/",
+    "githubRunId": 42849599851,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-10T15:56:32Z",
+    "completedAt": "2026-11-10T16:02:03.585635Z",
+    "durationSeconds": 331,
+    "overallRating": 4.5,
+    "ratingScale": 5,
+    "tests": [
+      18
+    ],
+    "language": "sv",
+    "reportId": "0f3c0c3040cc87f4e2b6ff9142d54cb1",
+    "webperfVersion": null
+  }
+}
