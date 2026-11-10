@@ -1,0 +1,19 @@
+{
+  "analysisId": "83dda0b78f6ef3e14327ed7d4f9df841",
+  "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+  "website": "https://forte.se/",
+  "githubRunId": 42852053802,
+  "status": "in_progress",
+  "conclusion": null,
+  "startedAt": "2026-11-10T16:11:44Z",
+  "completedAt": null,
+  "durationSeconds": null,
+  "overallRating": null,
+  "ratingScale": 5,
+  "tests": [
+    18
+  ],
+  "language": "sv",
+  "reportId": null,
+  "webperfVersion": null
+}
