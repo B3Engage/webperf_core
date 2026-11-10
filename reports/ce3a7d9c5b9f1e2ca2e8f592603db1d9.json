@@ -1,0 +1,1360 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 3.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.85,
+      "date": "2026-11-10T15:24:29.054533",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Tillåt inte okända värden för egenskaper inom deklarationer (fel)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css\n\n- CSS, Tillåt inte ogiltiga preludier för at-regler (fel)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css\n\n- CSS, Tillåt inte inaktuella egenskaper (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/property-no-deprecated\n\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/sitevision/system-resource/07132f0459864f2f59b94b45b62743a0466f0d284b90e05fab8bc5df852f7ab3/css/portlets-slim.css\n  - https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css\n\n- CSS, Tillåt inte okända egna egenskaper (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css\n\n- CSS, Tillåt inte tomma block (varning)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Webbadress(er) med förbättringspotential:\n  - https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css\n\n- CSS, Tillåt inte okända annoteringar (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Tillåt inte okända deskriptorer för at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Tillåt inte okända värden för deskriptorer inom at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Tillåt inte inaktuella at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Tillåt inte okända at-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Tillåt inte ogiltiga hexfärger (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Tillåt inte tomma kommentarer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Tillåt inte inaktuella nyckelord för egenskaper inom deklarationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n- CSS, Tillåt inte icke-standardiserade riktningsvärden för linjära gradientfunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Tillåt inte okända funktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n- CSS, Tillåt inte okända namn på mediefunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Tillåt inte okända värden för mediefunktioner (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Tillåt inte ogiltiga mediefrågor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Tillåt inte inaktuella medietyper (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/media-type-no-deprecated\n\n- CSS, Tillåt inte ogiltiga namngivna rutnätsområden (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Tillåt inte tomma källor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Tillåt inte ogiltiga dubbel-snedstreck-kommentarer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Tillåt inte felplacerade `@import`-regler (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Tillåt inte ogiltiga positionsdeklarationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-declaration\n\n- CSS, Tillåt inte okända animationer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Tillåt inte okända egna mediefrågor (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Tillåt inte okända egenskaper (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- CSS, Tillåt inte inaktuella selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-no-deprecated\n\n- CSS, Tillåt inte ogiltiga selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-no-invalid\n\n- CSS, Tillåt inte okända pseudoklass-selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Tillåt inte okända pseudoelement-selektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Tillåt inte okända typselektorer (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n- CSS, Tillåt inte ogiltiga syntaxsträngar (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Tillåt inte okända enheter (löst)\n  Mer information:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2026.10.2",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "forte.se": {
+            "version": "2026.10.2",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 77,
+              "standard": 77
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 85343
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 105137
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 105349
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 106664
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 106876
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 108642
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 2,
+                    "column": 111434
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Invalid prelude @-moz-document for at-rule url-prefix() (at-rule-prelude-no-invalid)",
+                    "line": 2,
+                    "column": 87517
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://forte.se/sitevision/system-resource/07132f0459864f2f59b94b45b62743a0466f0d284b90e05fab8bc5df852f7ab3/css/portlets-slim.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 583
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 2,
+                    "column": 85368
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                    "line": 2,
+                    "column": 85434
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 2,
+                    "column": 106244
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 2,
+                    "column": 107771
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 113775
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 113793
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 114399
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 114563
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 152154
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 166812
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 166977
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 172283
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 172447
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 182265
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 182415
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 182446
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 214653
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --scrollbar-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 11135
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --padding-medium (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 21690
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --Radius-2 (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 174555
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property ----offblack (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 175567
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property ---primary-1-30 (no-unknown-custom-properties)",
+                    "line": 456,
+                    "column": 25
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 164,
+                    "column": 17
+                  },
+                  {
+                    "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 493,
+                    "column": 38
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-type-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-declaration",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://forte.se/": {
+                "version": "2026.10.2",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://forte.se/",
+                "score": {
+                  "overall": 77,
+                  "standard": 77
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 85343
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 105137
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 105349
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 106664
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 106876
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 108642
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 2,
+                        "column": 111434
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "at-rule-prelude-no-invalid",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Invalid prelude @-moz-document for at-rule url-prefix() (at-rule-prelude-no-invalid)",
+                        "line": 2,
+                        "column": 87517
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://forte.se/sitevision/system-resource/07132f0459864f2f59b94b45b62743a0466f0d284b90e05fab8bc5df852f7ab3/css/portlets-slim.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 583
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 2,
+                        "column": 85368
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                        "line": 2,
+                        "column": 85434
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 2,
+                        "column": 106244
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 2,
+                        "column": 107771
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 113775
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 113793
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 114399
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 114563
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 152154
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 166812
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 166977
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 172283
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 172447
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 182265
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-row-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 182415
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 182446
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 214653
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --scrollbar-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 11135
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --padding-medium (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 21690
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --Radius-2 (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 174555
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property ----offblack (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 175567
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property ---primary-1-30 (no-unknown-custom-properties)",
+                        "line": 456,
+                        "column": 25
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 164,
+                        "column": 17
+                      },
+                      {
+                        "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1793710501440/0/sv-template-asset.css",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 493,
+                        "column": 38
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-type-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-declaration",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "ce3a7d9c5b9f1e2ca2e8f592603db1d9",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://forte.se/",
+    "githubRunId": 42843048922,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-10T15:19:06Z",
+    "completedAt": "2026-11-10T15:24:30.606812Z",
+    "durationSeconds": 324,
+    "overallRating": 3.85,
+    "ratingScale": 5,
+    "tests": [
+      27
+    ],
+    "language": "sv",
+    "reportId": "ce3a7d9c5b9f1e2ca2e8f592603db1d9",
+    "webperfVersion": "2026.10.2"
+  }
+}
