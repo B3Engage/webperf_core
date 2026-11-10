@@ -1,0 +1,656 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.5,
+      "date": "2026-11-10T15:17:44.891991",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Säkerställ att obligatoriska element finns (fel)\n  Mer information:\n  - https://html-validate.org/rules/element-required-content.html\n\n  Webbadress(er) med förbättringspotential:\n  - https://consentcdn.cookiebot.com/sdk/bc-v5.min.html\n\n- Kräv att attribut separeras med blanksteg (löst)\n  Mer information:\n  - https://html-validate.org/rules/attr-spacing.html\n\n- Validera tillåtna attributvärden (löst)\n  Mer information:\n  - https://html-validate.org/rules/attribute-allowed-values.html\n\n- Kräv att attribut används i rätt kontext (löst)\n  Mer information:\n  - https://html-validate.org/rules/attribute-misuse.html\n\n- Tillåt inte attribut på sluttaggar (löst)\n  Mer information:\n  - https://html-validate.org/rules/close-attr.html\n\n- Kräv att element stängs i rätt ordning (löst)\n  Mer information:\n  - https://html-validate.org/rules/close-order.html\n\n- Tillåt inte användning av föråldrade element (löst)\n  Mer information:\n  - https://html-validate.org/rules/deprecated.html\n\n- Tillåt inte användning av föråldrade regler (löst)\n  Mer information:\n  - https://html-validate.org/rules/deprecated-rule.html\n\n- Kräv användning av \"html\" doctype (löst)\n  Mer information:\n  - https://html-validate.org/rules/doctype-html.html\n\n- Tillåt inte ogiltiga elementnamn (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-name.html\n\n- Validera tillåtet innehåll (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-permitted-content.html\n\n- Validera tillåtet antal förekomster av element (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-permitted-occurrences.html\n\n- Validera nödvändig elementordning (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-permitted-order.html\n\n- Validera tillåten elementförälder (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-permitted-parent.html\n\n- Säkerställ att obligatoriska attribut är satta (löst)\n  Mer information:\n  - https://html-validate.org/rules/element-required-attributes.html\n\n- Kräv att `<map name>` är unikt (löst)\n  Mer information:\n  - https://html-validate.org/rules/map-dup-name.html\n\n- Kräv att name och id matchar på `<map>`-element (löst)\n  Mer information:\n  - https://html-validate.org/rules/map-id-name.html\n\n- Tillåt inte användning av föråldrade attribut (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-deprecated-attr.html\n\n- Tillåt inte dubblerade attribut (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-dup-attr.html\n\n- Tillåt inte dubblerade ID:n (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-dup-id.html\n\n- Tillåt inte flera `<main>` (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-multiple-main.html\n\n- Tillåt inte användning av oescaperade specialtecken (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-raw-characters.html\n\n- Tillåt inte oanvända disable-direktiv (löst)\n  Mer information:\n  - https://html-validate.org/rules/no-unused-disable.html\n\n- Kräv sluttagg för `<script>` (löst)\n  Mer information:\n  - https://html-validate.org/rules/script-element.html\n\n- Tillåt inte okända teckenreferenser (löst)\n  Mer information:\n  - https://html-validate.org/rules/unrecognized-char-ref.html\n\n- Kräv att autocomplete-attributet är giltigt (löst)\n  Mer information:\n  - https://html-validate.org/rules/valid-autocomplete.html\n\n- Kräv att `id` är en giltig identifierare (löst)\n  Mer information:\n  - https://html-validate.org/rules/valid-id.html\n\n- Tillåt inte void-element med innehåll (löst)\n  Mer information:\n  - https://html-validate.org/rules/void-content.html\n\n",
+      "data": {
+        "version": "2026.10.2",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "forte.se": {
+            "version": "2026.10.2",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 90,
+              "standard": 90
+            },
+            "issues": [
+              {
+                "test": "html",
+                "rule": "element-required-content",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-content.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "<html> element must have <head> as content",
+                    "line": 1,
+                    "column": 17
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "attr-spacing",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attr-spacing.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "attribute-allowed-values",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-allowed-values.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "attribute-misuse",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-misuse.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated-rule.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "doctype-html",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/doctype-html.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-content",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-content.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-occurrences",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-occurrences.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-parent",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-parent.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-required-attributes",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-attributes.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-dup-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-dup-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-id-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-id-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-deprecated-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-deprecated-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-dup-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-dup-id",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-id.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-multiple-main",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-multiple-main.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-raw-characters",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-raw-characters.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-unused-disable",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-unused-disable.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "script-element",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/script-element.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "unrecognized-char-ref",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/unrecognized-char-ref.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "valid-autocomplete",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/valid-autocomplete.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "valid-id",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/valid-id.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "void-content",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/void-content.html"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://forte.se/": {
+                "version": "2026.10.2",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://forte.se/",
+                "score": {
+                  "overall": 90,
+                  "standard": 90
+                },
+                "issues": [
+                  {
+                    "test": "html",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-content.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "<html> element must have <head> as content",
+                        "line": 1,
+                        "column": 17
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attr-spacing",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attr-spacing.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-allowed-values.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attribute-misuse",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-misuse.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated-rule.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "doctype-html",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/doctype-html.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-content.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-occurrences",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-occurrences.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-parent",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-parent.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-attributes.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-dup-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-dup-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-id-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-id-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-deprecated-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-dup-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-id.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-multiple-main",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-multiple-main.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-raw-characters",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-raw-characters.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-unused-disable",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-unused-disable.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "script-element",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/script-element.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "unrecognized-char-ref",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/unrecognized-char-ref.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-autocomplete",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-autocomplete.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-id.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "void-content",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/void-content.html"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "5ab48e0f37c7102bfda043f8f6b9cd82",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://forte.se/",
+    "githubRunId": 42841948797,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-10T15:12:41Z",
+    "completedAt": "2026-11-10T15:17:46.904671Z",
+    "durationSeconds": 305,
+    "overallRating": 4.5,
+    "ratingScale": 5,
+    "tests": [
+      28
+    ],
+    "language": "sv",
+    "reportId": "5ab48e0f37c7102bfda043f8f6b9cd82",
+    "webperfVersion": "2026.10.2"
+  }
+}
