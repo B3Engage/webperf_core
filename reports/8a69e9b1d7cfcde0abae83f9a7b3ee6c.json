@@ -1,0 +1,370 @@
+{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 3.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-11-11T07:29:04.165542",
+      "report": "- Webbsidan genererar ganska lite koldioxid.\n- Koldioxid per sidvisning: 1.79 gram\n- Webbsidan är grönare än 74 % av testade webbplatser på webperf.se (Referens uppdaterad: 2026-06-07).\n- Nätverksstorlek: 2.82 MB\n ( 3.70 betyg )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://forte.se/",
+            "index": 1,
+            "size": 68292
+          },
+          {
+            "url": "https://forte.se/2.88d4b1619250d2fe5bd0/1794375111977/sitevision-responsive-grids.css?gridConfigs=651.1a94feff192bd297ae72c8d_FIXED_FLUID_GRID%2C651.1a94feff192bd297ae7a913_FIXED_FLUID_GRID%2C651.d2b18b4195b2913b5717d70_FIXED_FLUID_GRID&pushPull=false",
+            "index": 2,
+            "size": 36354
+          },
+          {
+            "url": "https://forte.se/2.88d4b1619250d2fe5bd0/auto/1794326644738/SiteVision.css",
+            "index": 3,
+            "size": 5161
+          },
+          {
+            "url": "https://forte.se/2.88d4b1619250d2fe5bd0/0/635/print/slim/SiteVision.css",
+            "index": 4,
+            "size": 39950
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/css/portlets-slim.css",
+            "index": 5,
+            "size": 3160
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/envision/envision.css",
+            "index": 6,
+            "size": 287988
+          },
+          {
+            "url": "https://forte.se/2.88d4b1619250d2fe5bd0/91.1a94feff192bd297ae7acb6/1794375377360/0/sv-template-asset.css",
+            "index": 7,
+            "size": 234515
+          },
+          {
+            "url": "https://forte.se/2.88d4b1619250d2fe5bd0/1794375360141/sitevision-spacing.css",
+            "index": 8,
+            "size": 112905
+          },
+          {
+            "url": "https://forte.se/webapp-resource/2.88d4b1619250d2fe5bd0/360.4ce6b17419684e02cdd3504/1746172082128/webapp-assets.css",
+            "index": 9,
+            "size": 845
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/js/jquery-slim.js",
+            "index": 10,
+            "size": 89749
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/envision/envision.js",
+            "index": 11,
+            "size": 80880
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/js/utils-slim.js",
+            "index": 12,
+            "size": 29289
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/js/portlets-slim.js",
+            "index": 13,
+            "size": 21197
+          },
+          {
+            "url": "https://forte.se/download/18.3bd80ad31932973acc5be6/1788783415946/main.js",
+            "index": 14,
+            "size": 14838
+          },
+          {
+            "url": "https://forte.se/download/18.3de350c219545ea25bd3c19b/1743485994197/startpage.js",
+            "index": 15,
+            "size": 2831
+          },
+          {
+            "url": "https://consent.cookiebot.com/uc.js",
+            "index": 16,
+            "size": 121081
+          },
+          {
+            "url": "https://forte.se/images/18.4b2c14a019545e36ca7173ed/1741463141912/forte-logo.svg",
+            "index": 17,
+            "size": 13982
+          },
+          {
+            "url": "https://forte.se/images/18.25f60abc193953f3ddc4ed5/1734429983868/menu.svg",
+            "index": 18,
+            "size": 347
+          },
+          {
+            "url": "https://forte.se/images/18.25f60abc193953f3ddc471c/1734429151296/search.svg",
+            "index": 19,
+            "size": 942
+          },
+          {
+            "url": "https://forte.se/images/200.796a9d601a1a19fe0c615e8b/1794324567274/ima250785.webp",
+            "index": 20,
+            "size": 126726
+          },
+          {
+            "url": "https://forte.se/images/200.796a9d601a1a19fe0c615e7f/1794324381047/FORTE%20Magasin%202%202026%20web.webp",
+            "index": 21,
+            "size": 48626
+          },
+          {
+            "url": "https://forte.se/images/18.75e86820194d83465e3381cc/1739910447101/chart-type-1-purple.svg",
+            "index": 22,
+            "size": 2361
+          },
+          {
+            "url": "https://forte.se/images/18.75e86820194d83465e3381cb/1739910241746/chart-type-2-purple.svg",
+            "index": 23,
+            "size": 607
+          },
+          {
+            "url": "https://forte.se/images/18.75e86820194d83465e3381ca/1739910137394/chart-type-3-purple.svg",
+            "index": 24,
+            "size": 743
+          },
+          {
+            "url": "https://forte.se/images/18.1a94feff192bd297ae730d5/1730206489866/logotyp.svg",
+            "index": 25,
+            "size": 1788
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/js/webAppExternals/react_17_0.js",
+            "index": 26,
+            "size": 130891
+          },
+          {
+            "url": "https://forte.se/webapp-resource/2.88d4b1619250d2fe5bd0/360.6a852b5319684e63db72f25/1746183383681/webapp-assets.js",
+            "index": 27,
+            "size": 4131
+          },
+          {
+            "url": "https://forte.se/webapp-resource/2.88d4b1619250d2fe5bd0/360.4ce6b17419684e02cdd3504/1746172082128/webapp-assets.js",
+            "index": 28,
+            "size": 6108
+          },
+          {
+            "url": "https://forte.se/webapp-resource/2.88d4b1619250d2fe5bd0/360.796a9d601a1a19fe0c615fbd/1794326938683/webapp-assets.js",
+            "index": 29,
+            "size": 9387
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/b4684bf0b65a2ce7ee3e27525a033c6dd2599d530df09b7b80396beddac45801/webapps/webapp_sdk.js",
+            "index": 30,
+            "size": 17540
+          },
+          {
+            "url": "https://consentcdn.cookiebot.com/consentconfig/be9dcdab-407a-4364-946b-1249bf4fa292/forte.se/configuration.js",
+            "index": 31,
+            "size": 983
+          },
+          {
+            "url": "https://consentcdn.cookiebot.com/consentconfig/be9dcdab-407a-4364-946b-1249bf4fa292/settings.json",
+            "index": 32,
+            "size": 611
+          },
+          {
+            "url": "https://consent.cookiebot.com/be9dcdab-407a-4364-946b-1249bf4fa292/cc.js?renew=false&referer=forte.se&dnt=false&init=false",
+            "index": 33,
+            "size": 426256
+          },
+          {
+            "url": "https://forte.containers.piwik.pro/b77cd7fe-4331-45e9-96bd-903dac142707.js",
+            "index": 34,
+            "size": 261967
+          },
+          {
+            "url": "https://forte.se/forte-icons.svg#arrow-down",
+            "index": 35,
+            "size": 0
+          },
+          {
+            "url": "https://forte.se/images/18.7a47adda195b297cd3478d8/1742814460310/startpage-hero.svg",
+            "index": 36,
+            "size": 2820
+          },
+          {
+            "url": "https://forte.se/images/18.78010c411932979f7b04656/1732027603263/arrow-right-purple.svg",
+            "index": 37,
+            "size": 594
+          },
+          {
+            "url": "https://forte.se/download/18.78010c411932979f7b060ed/1732181803090/subset-Roboto-Bold.woff2",
+            "index": 38,
+            "size": 25804
+          },
+          {
+            "url": "https://forte.se/download/18.1a94feff192bd297ae73466/1730271857936/subset-Roboto-Regular.woff2",
+            "index": 39,
+            "size": 25600
+          },
+          {
+            "url": "https://forte.se/download/18.1a94feff192bd297ae72b93/1730115577164/2FAF5A_7_0.5681d7f5.woff2",
+            "index": 40,
+            "size": 57384
+          },
+          {
+            "url": "https://forte.se/download/18.78010c411932979f7b060a5/1732181678695/subset-Roboto-Medium.woff2",
+            "index": 41,
+            "size": 25780
+          },
+          {
+            "url": "https://forte.se/images/200.297109d71a1a174679a65fa/1793881336886/x640p/Kerstin%20Svensson%20och%20Lars%20Plantin%20Foto%20Forskarskolan%20FYS.jpg",
+            "index": 42,
+            "size": 66845
+          },
+          {
+            "url": "https://forte.se/images/200.76a8bb051a1a1b6316b6596/1793881409751/x640p/sca25187.jpg",
+            "index": 43,
+            "size": 75990
+          },
+          {
+            "url": "https://forte.se/images/200.76a8bb051a1a1b6316b16b84/1794321826065/Webb-Helena-Jacqueline-%20FK-n%C3%A4tverk-26%20(1).jpeg",
+            "index": 44,
+            "size": 19257
+          },
+          {
+            "url": "https://forte.se/images/200.3bc2fa041a18c7dc66b8590/1793608485246/scandinav_ah97.jpg",
+            "index": 45,
+            "size": 25361
+          },
+          {
+            "url": "https://forte.se/images/200.14a707441a0865aa8e62163/1789033209949/ima257317.jpg",
+            "index": 46,
+            "size": 28789
+          },
+          {
+            "url": "https://forte.se/images/200.1f7803e91a1631c9dc6bfa8/1793005775578/sca35222.jpg",
+            "index": 47,
+            "size": 29538
+          },
+          {
+            "url": "https://forte.se/images/200.46b8e5a1a15cdf3f723595/1792658229141/Livsvillkor_Och_Ha%CC%88lsa_UB_400.webp",
+            "index": 48,
+            "size": 27902
+          },
+          {
+            "url": "https://forte.se/forte-socialmedia.svg#facebook",
+            "index": 49,
+            "size": 0
+          },
+          {
+            "url": "https://forte.se/download/18.1a94feff192bd297ae72b96/1730115659361/2FAF5A_5_0.0cec7e9f.woff2",
+            "index": 50,
+            "size": 60299
+          },
+          {
+            "url": "https://consentcdn.cookiebot.com/sdk/bc-v5.min.html",
+            "index": 51,
+            "size": 636
+          },
+          {
+            "url": "https://forte.se/images/18.1a94feff192bd297ae7308c/1744293983381/forte-sprites.svg#arrow-down",
+            "index": 52,
+            "size": 141281
+          },
+          {
+            "url": "https://forte.containers.piwik.pro/b77cd7fe-4331-45e9-96bd-903dac142707/privacy-widgets.json",
+            "index": 53,
+            "size": 53325
+          },
+          {
+            "url": "https://forte.containers.piwik.pro/ppms.js",
+            "index": 54,
+            "size": 70128
+          },
+          {
+            "url": "https://forte.se/images/18.5b7a62d6192bd21b9624970/1730298512181/forte-socialmedia.svg#facebook",
+            "index": 55,
+            "size": 6805
+          },
+          {
+            "url": "https://forte.piwik.pro/ppms.php",
+            "index": 56,
+            "size": 0
+          },
+          {
+            "url": "https://forte.se/favicon.ico",
+            "index": 57,
+            "size": 0
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/1937a76f1b12555756c2366594bdf9aecf9aa569b56a13a05226a0a82bede5c8/css/text-portlet.css",
+            "index": 58,
+            "size": 726
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/1937a76f1b12555756c2366594bdf9aecf9aa569b56a13a05226a0a82bede5c8/js/text-portlet.js",
+            "index": 59,
+            "size": 125
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/1937a76f1b12555756c2366594bdf9aecf9aa569b56a13a05226a0a82bede5c8/css/searchForm.css",
+            "index": 60,
+            "size": 952
+          },
+          {
+            "url": "https://forte.se/sitevision/system-resource/1937a76f1b12555756c2366594bdf9aecf9aa569b56a13a05226a0a82bede5c8/js/searchForm.js",
+            "index": 61,
+            "size": 8402
+          },
+          {
+            "url": "https://forte.se/?sv.target=12.2aee4071961de79d3024f6c&sv.12.2aee4071961de79d3024f6c.route=/serviceMenu&svAjaxReqParam=ajax",
+            "index": 62,
+            "size": 1109
+          },
+          {
+            "url": "https://forte.se/?sv.target=12.2aee4071961de79d3024f6c&sv.12.2aee4071961de79d3024f6c.route=/menuItems&id=2.88d4b1619250d2fe5bd0_sitePage&svAjaxReqParam=ajax",
+            "index": 63,
+            "size": 1904
+          },
+          {
+            "url": "https://forte.se/images/18.25f60abc193953f3ddc4f15/1734440357017/forte-logo-45x45.jpg",
+            "index": 64,
+            "size": 1260
+          },
+          {
+            "url": "https://forte.se/forte-icons.svg#link-external",
+            "index": 65,
+            "size": 0
+          }
+        ],
+        "total-byte-weight": 2961647,
+        "co2": 1.7854643826856043,
+        "cleaner_than": 74.0
+      }
+    }
+  ],
+  "metadata": {
+    "analysisId": "8a69e9b1d7cfcde0abae83f9a7b3ee6c",
+    "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
+    "website": "https://forte.se/",
+    "githubRunId": 42979245479,
+    "status": "completed",
+    "conclusion": "success",
+    "startedAt": "2026-11-11T07:24:21Z",
+    "completedAt": "2026-11-11T07:29:05.563798Z",
+    "durationSeconds": 284,
+    "overallRating": 3.7,
+    "ratingScale": 5,
+    "tests": [
+      22
+    ],
+    "language": "sv",
+    "reportId": "8a69e9b1d7cfcde0abae83f9a7b3ee6c",
+    "webperfVersion": null
+  }
+}
