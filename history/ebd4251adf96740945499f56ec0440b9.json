@@ -3,12 +3,12 @@
   "userId": "247.66393165666330332d62366538313165662d61366331396164652d3564313562666162",
   "website": "https://www.ovikenergi.se/",
   "githubRunId": 43187210020,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-12T08:57:30Z",
-  "completedAt": null,
-  "durationSeconds": null,
-  "overallRating": null,
+  "completedAt": "2026-11-12T09:22:14.486786Z",
+  "durationSeconds": 1484,
+  "overallRating": 4.47,
   "ratingScale": 5,
   "tests": [
     9,
@@ -18,6 +18,6 @@
     30
   ],
   "language": "sv",
-  "reportId": null,
-  "webperfVersion": null
+  "reportId": "ebd4251adf96740945499f56ec0440b9",
+  "webperfVersion": "2026.10.2"
 }
