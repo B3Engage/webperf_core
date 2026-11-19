@@ -3,12 +3,12 @@
   "userId": "247.32626362373630312d62633465313165662d61366331396164652d3564313562666162",
   "website": "https://forte.se/",
   "githubRunId": 44503664522,
-  "status": "in_progress",
-  "conclusion": null,
+  "status": "completed",
+  "conclusion": "success",
   "startedAt": "2026-11-19T10:13:47Z",
-  "completedAt": null,
-  "durationSeconds": null,
-  "overallRating": null,
+  "completedAt": "2026-11-19T10:44:05.790405Z",
+  "durationSeconds": 1818,
+  "overallRating": 4.2,
   "ratingScale": 5,
   "tests": [
     2,
@@ -30,6 +30,6 @@
     32
   ],
   "language": "sv",
-  "reportId": null,
-  "webperfVersion": null
+  "reportId": "27d7de4c5c3728883fdc58fd3eab6ff1",
+  "webperfVersion": "2026.10.2"
 }
